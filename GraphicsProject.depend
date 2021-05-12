@@ -59,3 +59,44 @@
 	"graphics.hpp"
 	"widgets.hpp"
 
+1620831327 source:c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\application.cpp
+	"application.hpp"
+	"graphics.hpp"
+
+1620831573 c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\application.hpp
+	"graphics.hpp"
+
+1613033183 c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\include\graphics.hpp
+	<string>
+
+1620286046 source:c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\button.cpp
+	"button.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+
+1620286882 c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\button.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1619470633 c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\widgets.hpp
+	"graphics.hpp"
+
+1620286882 source:c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\button.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1620831472 source:c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\statictext.cpp
+	"statictext.hpp"
+
+1620831518 c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\statictext.hpp
+	"button.hpp"
+	"graphics.hpp"
+
+1620831518 source:c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\statictext.hpp
+	"button.hpp"
+	"graphics.hpp"
+
+1619468871 source:c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+

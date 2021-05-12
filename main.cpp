@@ -7,20 +7,24 @@ using namespace genv;
 
 class MyApplication:public Application{
 protected:
-    StText st;
-    Button bt;
+    vector<> playground;
 public:
     MyApplication(){
     }
-
+    mapCreator()
+    {
+        for()
+    }
 };
 
 
 int main()
 {
     MyApplication *window=new MyApplication();
-    gout <<text("hello world")<< refresh;
+    window->mapCreator()
     window->event_loop();
+
+
 
     return 0;
 }
