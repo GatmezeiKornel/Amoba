@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1612697619 source:c:\users\flugi\cb\grafkit64\main.cpp
+	"graphics.hpp"
+
+1612611542 c:\users\flugi\cb\grafkit64\include\graphics.hpp
+	<string>
+
+1612698440 source:c:\users\flugi\cb\graphicskit64\main.cpp
+	"graphics.hpp"
+
+1612611542 c:\users\flugi\cb\graphicskit64\include\graphics.hpp
+	<string>
+
+1620831327 source:c:\users\kornel\documents\iskola\egyetem\bevprog2_feladatok\11.gyakorlat\application.cpp
+	"application.hpp"
+	"graphics.hpp"
+
+1620831573 c:\users\kornel\documents\iskola\egyetem\bevprog2_feladatok\11.gyakorlat\application.hpp
+	"graphics.hpp"
+
+1613033183 c:\users\kornel\documents\iskola\egyetem\bevprog2_feladatok\11.gyakorlat\include\graphics.hpp
+	<string>
+
+1620286882 source:c:\users\kornel\documents\iskola\egyetem\bevprog2_feladatok\11.gyakorlat\button.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1619470633 c:\users\kornel\documents\iskola\egyetem\bevprog2_feladatok\11.gyakorlat\widgets.hpp
+	"graphics.hpp"
+
+1620289813 source:c:\users\kornel\documents\iskola\egyetem\bevprog2_feladatok\11.gyakorlat\main.cpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"button.hpp"
+	"statictext.hpp"
+	"application.hpp"
+
+1620286882 c:\users\kornel\documents\iskola\egyetem\bevprog2_feladatok\11.gyakorlat\button.hpp
+	"graphics.hpp"
+	"widgets.hpp"
+
+1620831518 c:\users\kornel\documents\iskola\egyetem\bevprog2_feladatok\11.gyakorlat\statictext.hpp
+	"button.hpp"
+	"graphics.hpp"
+
+1620831472 source:c:\users\kornel\documents\iskola\egyetem\bevprog2_feladatok\11.gyakorlat\statictext.cpp
+	"statictext.hpp"
+
+1620831518 source:c:\users\kornel\documents\iskola\egyetem\bevprog2_feladatok\11.gyakorlat\statictext.hpp
+	"button.hpp"
+	"graphics.hpp"
+
+1619468871 source:c:\users\kornel\documents\iskola\egyetem\bevprog2_feladatok\11.gyakorlat\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+
+1620286046 source:c:\users\kornel\documents\iskola\egyetem\bevprog2_feladatok\11.gyakorlat\button.cpp
+	"button.hpp"
+	"graphics.hpp"
+	"widgets.hpp"
+
