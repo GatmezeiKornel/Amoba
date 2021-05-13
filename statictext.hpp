@@ -9,6 +9,7 @@ using std::string;
 class StText: public Button{
 public:
     StText(int _x, int _y, int _width, int _height,string _content);
+    void Draw();
     //void handle(genv::event ev) override;
 };
 

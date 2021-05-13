@@ -59,12 +59,16 @@
 	"graphics.hpp"
 	"widgets.hpp"
 
-1620831327 source:c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\application.cpp
+1620907494 source:c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\application.cpp
 	"application.hpp"
+	"widgets.hpp"
 	"graphics.hpp"
+	<vector>
 
-1620831573 c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\application.hpp
+1620907579 c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\application.hpp
 	"graphics.hpp"
+	<vector>
+	"widgets.hpp"
 
 1613033183 c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\include\graphics.hpp
 	<string>
@@ -74,21 +78,21 @@
 	"graphics.hpp"
 	"widgets.hpp"
 
-1620286882 c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\button.hpp
+1620907260 c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\button.hpp
 	"graphics.hpp"
 	"widgets.hpp"
 
-1619470633 c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\widgets.hpp
+1620907643 c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\widgets.hpp
 	"graphics.hpp"
 
-1620286882 source:c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\button.hpp
+1620907260 source:c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\button.hpp
 	"graphics.hpp"
 	"widgets.hpp"
 
-1620831472 source:c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\statictext.cpp
+1620907260 source:c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\statictext.cpp
 	"statictext.hpp"
 
-1620831518 c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\statictext.hpp
+1620907260 c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\statictext.hpp
 	"button.hpp"
 	"graphics.hpp"
 
@@ -96,7 +100,7 @@
 	"button.hpp"
 	"graphics.hpp"
 
-1619468871 source:c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\widgets.cpp
+1620907643 source:c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\widgets.cpp
 	"widgets.hpp"
 	"graphics.hpp"
 

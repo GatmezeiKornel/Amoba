@@ -16,8 +16,8 @@ protected:
     string content;
 public:
     Button(int _x, int _y, int _width, int _height,string _content);
-    void Draw();
-    virtual void handle(genv::event ev);
+    virtual void Draw();
+    void handle(genv::event ev);
 };
 
 #endif // BUTTON_HPP_INCLUDED

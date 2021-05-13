@@ -30,3 +30,9 @@ bool Widget::isLastPosOver() // visszaadja, hogy
     &&  (lastEvY >= y)
     &&  (lastEvY <= y + merety);
 }
+
+bool Widget::is_selected(int mouse_x, int mouse_y)
+{
+    return mouse_x>x && mouse_x<x+meretx && merety>y && mouse_y<y+merety;
+}
+

@@ -3,17 +3,26 @@
 #include "button.hpp"
 #include "statictext.hpp"
 #include "application.hpp"
+#include <vector>
 using namespace genv;
+using std::vector;
 
 class MyApplication:public Application{
 protected:
-    vector<> playground;
+    vector<vector<Widget*>> playground;
 public:
     MyApplication(){
+        for(int i=0;i<15;i++)
+        {
+            for(int i=0;i<15;i++)
+            {
+
+            }
+        }
     }
-    mapCreator()
+    void handle(MyApplication *window)
     {
-        for()
+        window->event_loop(vector<Widget*> playground);
     }
 };
 
@@ -21,8 +30,7 @@ public:
 int main()
 {
     MyApplication *window=new MyApplication();
-    window->mapCreator()
-    window->event_loop();
+    window->handle(window);
 
 
 
