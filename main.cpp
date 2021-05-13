@@ -1,7 +1,5 @@
 #include "graphics.hpp"
 #include "widgets.hpp"
-#include "button.hpp"
-#include "statictext.hpp"
 #include "application.hpp"
 #include "shapebox.hpp"
 #include <vector>
