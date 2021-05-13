@@ -4,12 +4,14 @@
 #include "graphics.hpp"
 #include <vector>
 #include "widgets.hpp"
+#include "shapebox.hpp"
 
 using namespace genv;
+using std::vector;
 
 class Application{
 public:
-    void event_loop(std::vector<Widget*> widgets);
+    void event_loop(vector<vector<ShBox*>> playground,int &_timer);
 };
 
 #endif // APPLICATION_HPP_INCLUDED

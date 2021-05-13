@@ -59,30 +59,32 @@
 	"graphics.hpp"
 	"widgets.hpp"
 
-1620907494 source:c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\application.cpp
+1620915729 source:c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\application.cpp
 	"application.hpp"
 	"widgets.hpp"
 	"graphics.hpp"
+	"shapebox.hpp"
 	<vector>
 
-1620907579 c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\application.hpp
+1620915739 c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\application.hpp
 	"graphics.hpp"
 	<vector>
 	"widgets.hpp"
+	"shapebox.hpp"
 
 1613033183 c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\include\graphics.hpp
 	<string>
 
-1620286046 source:c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\button.cpp
+1620913479 source:c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\button.cpp
 	"button.hpp"
 	"graphics.hpp"
 	"widgets.hpp"
 
-1620907260 c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\button.hpp
+1620913479 c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\button.hpp
 	"graphics.hpp"
 	"widgets.hpp"
 
-1620907643 c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\widgets.hpp
+1620913479 c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\widgets.hpp
 	"graphics.hpp"
 
 1620907260 source:c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\button.hpp
@@ -100,7 +102,24 @@
 	"button.hpp"
 	"graphics.hpp"
 
-1620907643 source:c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\widgets.cpp
+1620913620 source:c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\widgets.cpp
+	"widgets.hpp"
+	"graphics.hpp"
+
+1620910404 source:c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\main.cpp
+	"graphics.hpp"
+	"widgets.hpp"
+	"button.hpp"
+	"statictext.hpp"
+	"application.hpp"
+	"shapebox.hpp"
+	<vector>
+
+1620914184 source:c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\shapebox.cpp
+	"shapebox.hpp"
+	"graphics.hpp"
+
+1620914179 c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\shapebox.hpp
 	"widgets.hpp"
 	"graphics.hpp"
 

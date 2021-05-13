@@ -10,6 +10,8 @@ Point::Point(int _x, int _y)
 
 Widget::Widget(int vx, int vy, int vmeretx, int vmerety) :x(vx),y(vy),meretx(vmeretx),merety(vmerety)
 {
+    topLeft = new Point(vx, vy);
+    bottomright = new Point(vx+vmeretx, vy+vmerety);
 }
 
 void Widget::Draw(){

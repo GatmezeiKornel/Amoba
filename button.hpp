@@ -9,8 +9,6 @@ using std::string;
 
 class Button: public Widget {
 protected:
-    Point * topLeft;
-    Point * bottomright;
     int width;
     int height;
     string content;

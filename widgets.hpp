@@ -13,14 +13,16 @@ public:
 
 class Widget{
 protected:
-int x,y;
-int meretx,merety;
+    int x,y;
+    int meretx,merety;
+    Point * topLeft;
+    Point * bottomright;
     int lastEvX = 0;
     int lastEvY = 0;
 
 public:
     Widget(int vx, int vy, int vmeretx,int merety);
-    void Draw();
+    virtual void Draw();
     bool isLastPosOver();
     bool is_selected(int mouse_x, int mouse_y);
     virtual void handle(genv::event ev) = 0;

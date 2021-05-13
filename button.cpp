@@ -5,8 +5,6 @@ using namespace genv;
 
 Button::Button(int _x, int _y, int _width, int _height,string _content):Widget(_x,_y,_width,_height)
 {
-    topLeft = new Point(_x, _y);
-    bottomright = new Point(_x+_width, _y+_height);
     width = _width;
     height = _height;
     content= _content;
