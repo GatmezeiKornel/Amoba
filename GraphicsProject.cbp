@@ -54,16 +54,14 @@
 		<Unit filename="application.cpp" />
 		<Unit filename="application.hpp" />
 		<Unit filename="button.cpp" />
-		<Unit filename="button.hpp">
-			<Option compile="1" />
-			<Option link="1" />
-		</Unit>
+		<Unit filename="button.hpp" />
 		<Unit filename="main.cpp" />
-		<Unit filename="statictext.cpp" />
-		<Unit filename="statictext.hpp">
-			<Option compile="1" />
-			<Option link="1" />
+		<Unit filename="shapebox.cpp" />
+		<Unit filename="shapebox.hpp">
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
+		<Unit filename="statictext.cpp" />
+		<Unit filename="statictext.hpp" />
 		<Unit filename="widgets.cpp" />
 		<Unit filename="widgets.hpp" />
 		<Extensions />

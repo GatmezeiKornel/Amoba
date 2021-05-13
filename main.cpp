@@ -10,10 +10,10 @@ using std::vector;
 
 class MyApplication:public Application{
 protected:
-    vector<vector<ShBox*>> playground;
+    vector<vector<ShBox*>*> playground;
     int timer=0;
 public:
-    MyApplication(){
+   MyApplication(){
         for(int i=0;i<15;i++)
         {
             // uj vektor
@@ -23,7 +23,7 @@ public:
             {
                 // uj shbox
                 // push back az elõz uj vektorba
-                ShBox *temp=new ShBox(50,50,50,50);
+                 ShBox *temp = new ShBox(40 + j * 40,40 + i *40,40,40);
                 row->push_back(temp);
             }
             playground.push_back(row);
@@ -31,6 +31,8 @@ public:
     }
     void handle(MyApplication *window)
     {
+        gout.open(800,800);
+
         window->event_loop(playground,timer);
     }
 };

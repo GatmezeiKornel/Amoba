@@ -17,6 +17,19 @@ void ShBox::Draw()
         <<color(0,0,0)
         <<move_to(topLeft->x+2 , topLeft->y+2)
         <<box(bottomright->x - topLeft->x-4, bottomright->y - topLeft->y-4);
+
+    if((value==1) || (value == -1))
+    {
+        gout << ((value ==1) ? color(0,0,255) : color(255,0,0))
+             << move_to(x+4, y+4) << line(meretx-8, merety-8)
+             << move_to(x+5, y+4) << line(meretx-8, merety-8)
+             << move_to(x+meretx-4, y+4) << line(-meretx+8, merety-8)
+             << move_to(x+meretx-5, y+4) << line(-meretx+8, merety-8);
+
+    }
+/*
+
+
     if(value==1)
     {
         gout << color(255,255,255)
@@ -27,15 +40,16 @@ void ShBox::Draw()
     }
     else if(value==-1)
     {
-        for(int dx=-meretx;dx<=meretx;dx++){
-            for(int dy=-meretx;dy<=meretx;dy++){
+        for(int dx=0;dx<=meretx;dx++){
+            for(int dy=0;dy<=meretx;dy++){
                 if(dx*dx+dy*dy<=meretx*meretx){
-                    gout<<color(255,255,255)<<move_to(x+dx,y+dy)<<dot;
+                    gout<<color(255,255,255)<<move_to(x+dx+meretx/2,y+dy+merety/2)<<dot;
                 }
             }
         }
 
     }
+    */
 }
 
 void ShBox::handle(genv::event ev,int &_timer)
