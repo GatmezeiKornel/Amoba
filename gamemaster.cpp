@@ -9,7 +9,7 @@ GameMaster::Gamemaster(){
 
 bool GameMaster::rowCheck(int value,std::vector<std::vector<ShBox*>*> playground){
     lastValue=value;
-    for(int j=0;j<15;j++){//oszlopok vizsgálata
+    for(int j=0;j<15;j++){
                 std::vector<ShBox*> *row = playground[j];
                 for(ShBox* b : row[0])
                 {
@@ -20,7 +20,6 @@ bool GameMaster::rowCheck(int value,std::vector<std::vector<ShBox*>*> playground
                         if(correctValue==5) return true;
                     }
                     else correctValue=0;
-                    //box->handle(ev,_timer);
                 }
     }
     return false;
@@ -118,7 +117,7 @@ return (rowCheck(value,playground)||columnCheck(value,playground)||diagLeftToRig
 }
 
 bool GameMaster::PgIsFull(std::vector<std::vector<ShBox*>*> playground){
-    for(int j=0;j<15;j++){//oszlopok vizsgálata
+    for(int j=0;j<15;j++){
         vector<ShBox*> *row = playground[j];
         for(ShBox* b : row[0])
         {

@@ -24,7 +24,7 @@ void Widget::Draw(){
             <<box(meretx-4,merety-4);
 }
 
-bool Widget::isLastPosOver() // visszaadja, hogy
+bool Widget::isLastPosOver()
 {
     return
         (lastEvX >= x)

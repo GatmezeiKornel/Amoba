@@ -25,7 +25,6 @@ public:
     virtual void Draw();
     bool isLastPosOver();
     bool is_selected(int mouse_x, int mouse_y);
-    //virtual void handle(genv::event ev) = 0;
 };
 
 #endif // WIDGETS_HPP_INCLUDED
