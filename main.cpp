@@ -26,10 +26,23 @@ public:
             }
             playground.push_back(row);
         }
+        gout<<refresh;
+    }
+    void draw(){
+        for(int j=0;j<15;j++){//oszlopok vizsgálata
+                vector<ShBox*> *row = playground[j];
+                for(ShBox* b : row[0])
+                {
+                    ShBox* box = b;
+                    box->Draw();
+                }
+        }
+        gout<<refresh;
     }
     void handle(MyApplication *window)
     {
         gout.open(800,800);
+        window->draw();
         window->event_loop(playground,timer);
     }
 };
