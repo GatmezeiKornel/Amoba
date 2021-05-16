@@ -59,7 +59,7 @@
 	"graphics.hpp"
 	"widgets.hpp"
 
-1621161493 source:c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\application.cpp
+1621185012 source:c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\application.cpp
 	"application.hpp"
 	"widgets.hpp"
 	"graphics.hpp"
@@ -85,7 +85,7 @@
 	"graphics.hpp"
 	"widgets.hpp"
 
-1620937111 c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\widgets.hpp
+1621180439 c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\widgets.hpp
 	"graphics.hpp"
 
 1620907260 source:c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\button.hpp
@@ -103,18 +103,18 @@
 	"button.hpp"
 	"graphics.hpp"
 
-1620938650 source:c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\widgets.cpp
+1621180439 source:c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\widgets.cpp
 	"widgets.hpp"
 	"graphics.hpp"
 
-1620946313 source:c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\main.cpp
+1621180439 source:c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\main.cpp
 	"graphics.hpp"
 	"widgets.hpp"
 	"application.hpp"
 	"shapebox.hpp"
 	<vector>
 
-1621164975 source:c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\shapebox.cpp
+1621180439 source:c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\shapebox.cpp
 	"shapebox.hpp"
 	"graphics.hpp"
 	"gamemaster.hpp"
@@ -125,12 +125,12 @@
 	"graphics.hpp"
 	<vector>
 
-1621164698 source:c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\gamemaster.cpp
+1621180439 source:c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\gamemaster.cpp
 	"gamemaster.hpp"
 	<vector>
 	<iostream>
 
-1621164701 c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\gamemaster.hpp
+1621180439 c:\users\kornel\documents\iskola\egyetem\bevprog2\beadando\amoba\gamemaster.hpp
 	"shapebox.hpp"
 	<vector>
 

@@ -35,7 +35,7 @@ void Application::event_loop(std::vector<std::vector<ShBox*>*> playground, int &
         if(ellenorzo.handle(-1,playground)){
             gout
                 <<color(0,0,0)<<move_to(0,0)<<box(800,800)
-                <<color(255,255,255)<<move_to(400-gout.twidth("A kék nyert")/2,400-gout.cascent())<<text("A kék nyert");
+                <<color(255,255,255)<<move_to(400-gout.twidth("A piros nyert")/2,400-gout.cascent())<<text("A piros nyert");
         }
         if(ellenorzo.PgIsFull(playground))
         {
