@@ -55,6 +55,10 @@
 		<Unit filename="application.hpp" />
 		<Unit filename="button.cpp" />
 		<Unit filename="button.hpp" />
+		<Unit filename="gamemaster.cpp" />
+		<Unit filename="gamemaster.hpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="main.cpp" />
 		<Unit filename="shapebox.cpp" />
 		<Unit filename="shapebox.hpp">

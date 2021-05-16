@@ -30,7 +30,6 @@ public:
     void handle(MyApplication *window)
     {
         gout.open(800,800);
-
         window->event_loop(playground,timer);
     }
 };
