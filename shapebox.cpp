@@ -1,7 +1,10 @@
 #include "shapebox.hpp"
 #include "graphics.hpp"
+#include "gamemaster.hpp"
+#include <iostream>
 
 using namespace genv;
+using namespace std;
 
 ShBox::ShBox(int _x, int _y, int _meretx, int _merety):Widget(_x,_y,_meretx,_merety){
 }
@@ -52,14 +55,23 @@ void ShBox::Draw()
     */
 }
 
-void ShBox::handle(genv::event ev,int &_timer)
+int ShBox::getValue(){
+    return value;
+}
+
+void ShBox::handle(genv::event ev,int &_timer,std::vector<std::vector<ShBox*>*> playground)
 {
+    GameMaster ellenorzo;
     if(ev.type == ev_mouse && is_selected(ev.pos_x, ev.pos_y) && ev.button==btn_left && value==0)
     {
-        if(_timer%2==0)
+        if(_timer%2==0){
             value=1;
-        else
+            if(ellenorzo.handle(value,playground)) gout<<color(255,255,255)<<move_to(700,700)<<text("nyertél");
+        }
+        else{
             value=-1;
+            ellenorzo.handle(value,playground);
+        }
         _timer++;
     }
 }

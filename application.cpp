@@ -2,6 +2,7 @@
 #include "widgets.hpp"
 #include "graphics.hpp"
 #include "shapebox.hpp"
+#include "gamemaster.hpp"
 #include <vector>
 
 using namespace genv;
@@ -25,7 +26,7 @@ void Application::event_loop(std::vector<std::vector<ShBox*>*> playground, int &
                 for(ShBox* b : row[0])
                 {
                     ShBox* box = b;
-                    box->handle(ev,_timer);
+                    box->handle(ev,_timer,playground);
 //                    if (box->is_selected(ev.pos_x, ev.pos_y)) {
   //                  }
                     box->Draw();

@@ -3,6 +3,7 @@
 
 #include "widgets.hpp"
 #include "graphics.hpp"
+#include <vector>
 
 
 class ShBox:public Widget{
@@ -11,7 +12,8 @@ protected:
 public:
     ShBox(int _x, int _y, int _meretx, int _merety);
     void Draw() override;
-    void handle(genv::event ev,int &_timer);
+    int getValue();
+    void handle(genv::event ev,int &_timer,std::vector<std::vector<ShBox*>*> playground);
 
 };
 
