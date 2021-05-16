@@ -15,6 +15,7 @@ public:
     bool diagLeftToRight(int value,std::vector<std::vector<ShBox*>*> playground);
     bool diagRightToLeft(int value,std::vector<std::vector<ShBox*>*> playground);
     bool handle(int value,std::vector<std::vector<ShBox*>*> playground);
+    bool PgIsFull(std::vector<std::vector<ShBox*>*> playground);
 };
 
 

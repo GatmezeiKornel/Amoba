@@ -115,6 +115,17 @@ bool GameMaster::diagRightToLeft(int value,std::vector<std::vector<ShBox*>*> pla
 
 bool GameMaster::handle(int value,std::vector<std::vector<ShBox*>*> playground){
 return (rowCheck(value,playground)||columnCheck(value,playground)||diagLeftToRight(value,playground)||diagRightToLeft(value,playground));
+}
 
-
+bool GameMaster::PgIsFull(std::vector<std::vector<ShBox*>*> playground){
+    for(int j=0;j<15;j++){//oszlopok vizsgálata
+        vector<ShBox*> *row = playground[j];
+        for(ShBox* b : row[0])
+        {
+            ShBox* box = b;
+            if(box->getValue()==0)
+                return false;
+        }
+    }
+    return true;
 }

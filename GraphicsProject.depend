@@ -134,7 +134,7 @@
 	"shapebox.hpp"
 	<vector>
 
-1621168465 source:c:\users\gátmezei kornél\documents\egyetem\bevprog2\beadando\amoba\application.cpp
+1621179004 source:c:\users\gátmezei kornél\documents\egyetem\bevprog2\beadando\amoba\application.cpp
 	"application.hpp"
 	"widgets.hpp"
 	"graphics.hpp"
@@ -159,7 +159,7 @@
 	"graphics.hpp"
 	<vector>
 
-1621168465 c:\users\gátmezei kornél\documents\egyetem\bevprog2\beadando\amoba\gamemaster.hpp
+1621176165 c:\users\gátmezei kornél\documents\egyetem\bevprog2\beadando\amoba\gamemaster.hpp
 	"shapebox.hpp"
 	<vector>
 
@@ -172,12 +172,12 @@
 	"graphics.hpp"
 	"widgets.hpp"
 
-1621168465 source:c:\users\gátmezei kornél\documents\egyetem\bevprog2\beadando\amoba\gamemaster.cpp
+1621179004 source:c:\users\gátmezei kornél\documents\egyetem\bevprog2\beadando\amoba\gamemaster.cpp
 	"gamemaster.hpp"
 	<vector>
 	<iostream>
 
-1621168465 source:c:\users\gátmezei kornél\documents\egyetem\bevprog2\beadando\amoba\shapebox.cpp
+1621179877 source:c:\users\gátmezei kornél\documents\egyetem\bevprog2\beadando\amoba\shapebox.cpp
 	"shapebox.hpp"
 	"graphics.hpp"
 	"gamemaster.hpp"
@@ -194,7 +194,7 @@
 	"widgets.hpp"
 	"graphics.hpp"
 
-1621174918 source:c:\users\gátmezei kornél\documents\egyetem\bevprog2\beadando\amoba\main.cpp
+1621175276 source:c:\users\gátmezei kornél\documents\egyetem\bevprog2\beadando\amoba\main.cpp
 	"graphics.hpp"
 	"widgets.hpp"
 	"application.hpp"

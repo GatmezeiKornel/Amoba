@@ -21,7 +21,7 @@ public:
             {
                 // uj shbox
                 // push back az elõz uj vektorba
-                 ShBox *temp = new ShBox(40 + j * 40,40 + i *40,40,40);
+                 ShBox *temp = new ShBox(100 + j * 40,50 + i *40,40,40);
                 row->push_back(temp);
             }
             playground.push_back(row);
